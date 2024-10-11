@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745722380940",
+    "project_id": "styles-final-db",
+    "storage_bucket": "styles-final-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745722380940:android:58b5da2adb3a57c59671a9",
+        "android_client_info": {
+          "package_name": "com.example.styles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS9j-iLBOtbNrcNEadlSZO77_Vq1JpsPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

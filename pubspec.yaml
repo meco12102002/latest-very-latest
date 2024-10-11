@@ -1,0 +1,50 @@
+name: styles
+description: A new Flutter project.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  email_validator: ^2.1.17
+  intl_phone_field: ^3.2.0
+  pinput: ^2.2.16
+  firebase_auth: ^4.6.3
+  provider: ^6.0.5
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.11.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1 # Use the latest version
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/logo/logo.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "lib/assets/logo/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "lib/assets/logo/logo.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "lib/assets/logo/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/logo/logo.png
+    - lib/assets/
+    - lib/assets/images/hero_banner.png
